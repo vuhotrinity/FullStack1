@@ -60,20 +60,21 @@ function displayData (){
 
 }
 displayData()
-
+let point = 0
 function pickAnswer(answer){
     // console.log(correctAnswer);
 
     // console.log(correctAnswer);
+
     for(let i = 0 ; i<results.length ;i++){
         let correctAnswer =results[i].correct_answer
-        let point = 0
     if(answer == correctAnswer){
         alert("You are correct")
-        point++
-        
+        point+=10;
 
-    }
+    }        
+
     
 }
+console.log(`You have ${point} points`);
 }
