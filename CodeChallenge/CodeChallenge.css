@@ -1,0 +1,45 @@
+body{
+    background-color:royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#quiz{
+    width: 30%;
+    margin-top: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ }
+.question{
+text-align: center;
+margin-top:70px;
+font-weight: bolder;
+font-size: 18px;
+
+}
+.answer_option{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 15px;
+    
+    
+    
+}
+.option{
+    background-color: #cccccc;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    width: 80%;
+    cursor: pointer;
+}
+#correctAnswer{
+    display: none ;
+}
